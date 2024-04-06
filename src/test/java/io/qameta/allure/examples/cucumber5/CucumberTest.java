@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
             "io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm",
             "progress",
             "summary"
-        }
+        },strict = true
 )
 public class CucumberTest extends AbstractTestNGCucumberTests {
 
